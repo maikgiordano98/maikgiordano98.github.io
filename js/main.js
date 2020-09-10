@@ -1,7 +1,7 @@
 (function ($) {
 	"use strict";
 	var index = 0;
-
+debugger;
     var listaimg = ["img/fondo.jpg", "img/fondoo.jpg", "img/fondaa.jpg", "img/fonda.jpg"];
   
     setInterval(changeImage, 100);
@@ -123,7 +123,7 @@
 
 
 function changeImage() {
-  
+  debugger;
  
    $('home').css("background-image", 'url(' + listaimg[index] + ')');
                   
