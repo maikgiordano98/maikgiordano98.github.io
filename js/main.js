@@ -121,18 +121,24 @@
  var imagenes=new Array(
         'img/fondo.jpg', 'img/fondoo.jpg', 'img/fondaa.jpg', 'img/fonda.jpg'
     );
-
+var index = 0;
  var listaimg = ["img/fondo.jpg", "img/fondoo.jpg", "img/fondaa.jpg", "img/fonda.jpg"];
     /**
     * Funcion para cambiar la imagen
     */
+
     function rotarImagenes()
     {
         // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
-        var index=Math.floor((Math.random()*imagenes.length));
+        //var index=Math.floor((Math.random()*imagenes.length));
+       
  
         // cambiamos la imagen
-        document.getElementById("home").style.backgroundImage = 'url('+listaimg[1]+')';
+        document.getElementById("home").style.backgroundImage = 'url('+listaimg[index]+')';
+         index++;
+                  
+   if(index == listaimg.length)
+      index = 0;
     }
  
     /**
