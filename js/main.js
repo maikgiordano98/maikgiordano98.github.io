@@ -119,7 +119,7 @@
 	});
  
 var index = 0;
- var listaimg = ["img/fondo.jpg", "img/fondoo.jpg", "img/fondaa.jpg", "img/fonda.jpg"];
+ var listaimg = ["img/fondo.jpg", "img/fondo2.jpg", "img/fondo3.jpg", "img/fondo4.jpg", "img/fondo5.jpg", "img/fondo6.jpg", "img/fondo7.jpg", "img/fondo8.jpg"];
   
     function rotarImagenes()
     {
