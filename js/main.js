@@ -1,8 +1,5 @@
 (function ($) {
 	"use strict";
-	var index = 0;
-
-  
 	var nav = $('nav');
   var navHeight = nav.outerHeight();
   
@@ -14,6 +11,9 @@
 
   // Preloader
   $(window).on('load', function () {
+  	 rotarImagenes();
+        // Indicamos que cada 5 segundos cambie la imagen
+        setInterval(rotarImagenes,5000);
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function () {
         $(this).remove();
@@ -117,23 +117,26 @@
 		}
 	});
 
-var listaimg = ["img/fondo.jpg", "img/fondoo.jpg", "img/fondaa.jpg", "img/fonda.jpg"];
-$(function() {
-  
-    setInterval(changeImage, 100);
-  
-});
 
-function changeImage() {
+var imagenes=new Array(
+        'img/fondo.jpg', 'img/fondoo.jpg', 'img/fondaa.jpg', 'img/fonda.jpg'
+    );
  
-   $('home').css("background-image", 'url(' + listaimg[index] + ')');
-                  
-   index++;
-                  
-   if(index == 4)
-      index = 0;
+    /**
+    * Funcion para cambiar la imagen
+    */
+    function rotarImagenes()
+    {
+        // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
+        var index=Math.floor((Math.random()*imagenes.length));
+ 
+        // cambiamos la imagen
+        document.getElementById("home").src=imagenes[index];
+    }
+ 
+    /**
+    * Función que se ejecuta una vez cargada la página
+    */
     
-    
-}
 
 })(jQuery);
