@@ -132,7 +132,7 @@
         var index=Math.floor((Math.random()*imagenes.length));
  
         // cambiamos la imagen
-        document.getElementById("home").style.backgroundImage = 'url(listaimg[index])';
+        document.getElementById("home").style.backgroundImage = 'url('+listaimg[1]+')';
     }
  
     /**
