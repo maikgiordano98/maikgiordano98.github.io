@@ -119,7 +119,7 @@
 	});
  
 var index = 0;
- var listaimg = ["img/fondo.jpg", "img/fondo2.jpg", "img/fondo3.jpg", "img/fondo4.jpg", "img/fondo5.jpg", "img/fondo6.jpg", "img/fondo7.jpg", "img/fondo8.jpg", "img/fondo9.jpg", "img/fondo10.jpg", "img/fondo11.jpg"];
+ var listaimg = ["img/fondo.jpg", "img/fondo2.jpg", "img/fondo3.jpg", "img/fondo4.jpg", "img/fondo5.jpg", "img/fondo6.jpg", "img/fondo7.jpg", "img/fondo8.jpg", "img/fondo9.jpg", "img/fondo10.jpg", "img/fondo11.jpg", "img/fondo12.jpg"];
   
     function rotarImagenes()
     {
