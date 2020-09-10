@@ -1,5 +1,11 @@
 (function ($) {
 	"use strict";
+	var index = 0;
+
+    var listaimg = ["img/fondo.jpg", "img/fondoo.jpg", "img/fondaa.jpg", "img/fonda.jpg"];
+  
+    setInterval(changeImage, 1000);
+  
 	var nav = $('nav');
   var navHeight = nav.outerHeight();
   
@@ -113,5 +119,20 @@
 			}
 		}
 	});
+
+
+
+function changeImage() {
+  
+ 
+   $('home').css("background-image", 'url(' + listaimg[index] + ')');
+                  
+   index++;
+                  
+   if(index == 4)
+      index = 0;
+    
+    
+}
 
 })(jQuery);
