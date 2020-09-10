@@ -11,6 +11,9 @@
 
   // Preloader
   $(window).on('load', function () {
+  	var imagenes=new Array(
+        'img/fondo.jpg', 'img/fondoo.jpg', 'img/fondaa.jpg', 'img/fonda.jpg'
+    );
   	 rotarImagenes();
         // Indicamos que cada 5 segundos cambie la imagen
         setInterval(rotarImagenes,5000);
@@ -116,11 +119,6 @@
 			}
 		}
 	});
-
-
-var imagenes=new Array(
-        'img/fondo.jpg', 'img/fondoo.jpg', 'img/fondaa.jpg', 'img/fonda.jpg'
-    );
  
     /**
     * Funcion para cambiar la imagen
