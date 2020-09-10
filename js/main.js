@@ -4,7 +4,7 @@
 
     var listaimg = ["img/fondo.jpg", "img/fondoo.jpg", "img/fondaa.jpg", "img/fonda.jpg"];
   
-    setInterval(changeImage, 1000);
+    setInterval(changeImage, 100);
   
 	var nav = $('nav');
   var navHeight = nav.outerHeight();
