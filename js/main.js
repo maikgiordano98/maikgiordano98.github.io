@@ -147,7 +147,7 @@
 	];
 
 	function rotarImagenes() {
-		$("#home").fadeOut(500, () => {
+		$("#home").fadeOut(300, () => {
 			document.getElementById(
 				"home"
 			).style.backgroundImage = `url(${listaimg[index]})`;
