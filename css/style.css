@@ -24,7 +24,7 @@ h6 {
 }
 
 a {
-  color: #1e1e1e;
+  color: #fff;
   transition: all 0.5s ease-in-out;
 }
 
@@ -402,7 +402,7 @@ a:hover {
 
 .navbar-b {
   transition: all .5s ease-in-out;
-  background-color: transparent;
+  background-color: #000;
   padding-top: 1.563rem;
   padding-bottom: 1.563rem;
 }
@@ -439,7 +439,7 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link:hover,
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #1B1B1B;
+  color: #000;
 }
 
 .navbar-b.navbar-trans .nav-link:hover:before,
@@ -459,18 +459,18 @@ a:hover {
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #fff;
+  color: #000;
 }
 
 .navbar-b.navbar-trans .show > .nav-link,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-  color: #fff;
+  color: #000;
 }
 
 .navbar-b.navbar-reduce {
@@ -481,34 +481,34 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #343a40;
+  color: ##000;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #343a40;
+  background-color: ##000;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #343a40;
+  color: ##000;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #343a40;
+  color: ##000;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #343a40;
+  color: ##000;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
-  background-color: #1B1B1B;
+  background-color: ##000;
 }
 
 .navbar-b .navbar-brand {
-  color: #fff;
+  color: ##000;
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -532,8 +532,8 @@ a:hover {
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: #343a40;
-  color: #fff;
+  background-color: ##000;
+  color: ##000;
   transition: all 500ms ease;
 }
 
@@ -1216,6 +1216,8 @@ footer .credits a {
 
   .intro .intro-title {
     font-size: 4.5rem;
+    
+    font-family: 'GothamBook', sans-serif !important;
   }
 
   .intro .intro-subtitle {
