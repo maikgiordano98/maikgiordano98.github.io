@@ -439,7 +439,7 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link:hover,
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #000;
+  color: #6c757d;
 }
 
 .navbar-b.navbar-trans .nav-link:hover:before,
@@ -463,14 +463,14 @@ a:hover {
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #000;
+  color: #6c757d;
 }
 
 .navbar-b.navbar-trans .show > .nav-link,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-  color: #000;
+  color: #6c757d;
 }
 
 .navbar-b.navbar-reduce {
