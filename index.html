@@ -23,7 +23,8 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="js/index.js"></script> 
   <!-- =======================================================
     Theme Name: DevFolio
     Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
@@ -687,7 +688,7 @@
                     </h5>
                   </div>
                   <div>
-                      <form action="" method="post" role="form" class="contactForm">
+                      <form name="form1" method="post" role="form" class="contactForm">
                       <div id="sendmessage">Su mensaje fue enviado. Gracias!</div>
                       <div id="errormessage"></div>
                       <div class="row">
@@ -715,8 +716,9 @@
                             <div class="validation"></div>
                           </div>
                         </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Enviar</button>
+                        <div class="col-md-12">       
+                          <input type="button" class="button button-a button-big button-rouded" value="Send Email" onclick="sendEmail()"/>
+                          <!-- <button type="button" value="Send Email" onclick="sendEmail()" class="button button-a button-big button-rouded">Enviar</button> -->
                         </div>
                       </div>
                     </form>
@@ -798,3 +800,22 @@
 
 </body>
 </html>
+
+
+<script>
+
+ function sendEmail() {
+  debugger;
+  Email.send({
+  Host: "smtp.gmail.com",
+  Username : "maikgiordano.mg@gmail.com",
+  Password : "",
+  To : 'maik.giordano@hotmail.com',
+  From : "maikgiordano.mg@gmail.com",
+  Subject : "<email subject>",
+  Body : "<email body>",
+  }).then(
+    message => alert("mail sent successfully")
+  );
+}
+</script>
