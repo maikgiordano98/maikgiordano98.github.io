@@ -13,7 +13,7 @@ Ejemplo: se quiere insertar el nodo 30 en un montículo de máximos. Se inserta 
  
 ![image](https://user-images.githubusercontent.com/70980802/124330673-4d98bc80-db64-11eb-822c-9397a0a24cf7.png)
 
-•	Eliminar Nodo: ## se extrae el nodo raíz y se coloca en su lugar el último nodo del montículo. Se verifica que cumpla la propiedad de montículo. Si no se cumple, se intercambia el nodo con su hijo (de mayor valor en montículos de máximos o de menor valor en montículos de mínimos) hasta que el árbol vuela a cumplir la propiedad.
+•	Eliminar Nodo: se extrae el nodo raíz y se coloca en su lugar el último nodo del montículo. Se verifica que cumpla la propiedad de montículo. Si no se cumple, se intercambia el nodo con su hijo (de mayor valor en montículos de máximos o de menor valor en montículos de mínimos) hasta que el árbol vuela a cumplir la propiedad.
 Ejemplo: se extrae el nodo raíz de un montículo de máximos (30) y se coloca en su lugar el último nodo del montículo (15). Como no se cumple la propiedad, se intercambia al nodo 15 con su hijo de mayor valor (23). Se verifica que ahora se cumple la propiedad por lo que no requiere más intercambios.
 
  ![image](https://user-images.githubusercontent.com/70980802/124330681-54bfca80-db64-11eb-868d-73f13a342ceb.png)
