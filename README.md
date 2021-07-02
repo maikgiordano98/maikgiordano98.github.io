@@ -1,4 +1,4 @@
-% Montículo
+# Montículo
 # ¿Qué es?
 Un montículo es un tipo especial de árbol que debe cumplir las siguientes condiciones:
 •	Binario: cada nodo puede tener como máximo dos hijos (hijo izquierdo e hijo derecho).
